@@ -1,5 +1,3 @@
-#!/bin/sh
-cd ./tmp/in
-gzip ./tmp/out
-cd ./tmp/out
-gunzip ./tmp/out
+#!/bin/bash
+in=$(./tmp/in)
+out=$(./tmp/out)
